@@ -1,13 +1,21 @@
-const faq = document.querySelectorAll(".faq-item");
+const counters = document.querySelectorAll(".counter");
 
-faq.forEach(item=>{
+counters.forEach(counter => {
 
-const btn=item.querySelector(".faq-question");
+    let target = Number(counter.dataset.target);
+    let count = 0;
 
-btn.onclick=()=>{
+    let update = setInterval(()=>{
 
-item.classList.toggle("active");
+        count += Math.ceil(target / 100);
 
-}
+        if(count >= target){
+            count = target;
+            clearInterval(update);
+        }
+
+        counter.innerHTML = count;
+
+    },30);
 
 });
