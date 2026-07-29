@@ -1,174 +1,457 @@
-<section class="features">
+```html
+<!DOCTYPE html>
+<html lang="en">
 
-    <h2>Why Choose NovaHost?</h2>
+<head>
 
-    <div class="features-grid">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <div class="feature-card">
-            <div class="icon">⚡</div>
-            <h3>Ryzen 9 CPUs</h3>
-            <p>High-performance processors for maximum TPS.</p>
-        </div>
+<title>NovaRealm Minecraft</title>
 
-        <div class="feature-card">
-            <div class="icon">💾</div>
-            <h3>NVMe SSD</h3>
-            <p>Ultra-fast storage for quick world loading.</p>
-        </div>
+<link rel="stylesheet" href="style.css">
 
-        <div class="feature-card">
-            <div class="icon">🛡️</div>
-            <h3>DDoS Protection</h3>
-            <p>Enterprise-grade protection against attacks.</p>
-        </div>
+</head>
 
-        <div class="feature-card">
-            <div class="icon">🔌</div>
-            <h3>One Click Plugins</h3>
-            <p>Install Paper, Purpur and plugins in seconds.</p>
-        </div>
 
-        <div class="feature-card">
-            <div class="icon">🌍</div>
-            <h3>Global Locations</h3>
-            <p>Choose the location closest to your players.</p>
-        </div>
+<body>
 
-        <div class="feature-card">
-            <div class="icon">📞</div>
-            <h3>24/7 Support</h3>
-            <p>Our team is always available to help.</p>
-        </div>
 
-    </div>
+<!-- NAVBAR -->
 
-</section> <section class="pricing">
+<header class="navbar">
 
-    <h2>Choose Your Plan</h2>
+<div class="logo">
+NovaRealm
+</div>
 
-    <div class="pricing-grid">
 
-        <div class="plan">
-            <h3>Starter</h3>
-            <div class="price">FREE</div>
+<nav>
 
-            <ul>
-                <li>✔ 2GB RAM</li>
-                <li>✔ 10GB NVMe SSD</li>
-                <li>✔ Paper / Purpur</li>
-                <li>✔ Plugin Support</li>
-            </ul>
+<a href="#">Home</a>
+<a href="#">Servers</a>
+<a href="#">Features</a>
+<a href="#">Support</a>
 
-            <button>Start Free</button>
-        </div>
+</nav>
 
-        <div class="plan popular">
 
-            <div class="badge">POPULAR</div>
+<a class="login-btn" href="#">
+Login
+</a>
 
-            <h3>Creator</h3>
 
-            <div class="price">FREE</div>
+</header>
 
-            <ul>
-                <li>✔ 6GB RAM</li>
-                <li>✔ Unlimited Plugins</li>
-                <li>✔ Daily Backups</li>
-                <li>✔ DDoS Protection</li>
-            </ul>
 
-            <button>Create Server</button>
 
-        </div>
+<!-- HERO -->
 
-        <div class="plan">
+<section class="hero">
 
-            <h3>Ultimate</h3>
 
-            <div class="price">FREE</div>
+<h1>
+Create Your Minecraft Server
+</h1>
 
-            <ul>
-                <li>✔ 12GB RAM</li>
-                <li>✔ Priority Node</li>
-                <li>✔ Premium Storage</li>
-                <li>✔ 24/7 Support</li>
-            </ul>
 
-            <button>Launch</button>
+<p>
+Build, manage and launch your dream Minecraft community.
+</p>
 
-        </div>
 
-    </div>
 
-</section> <section class="reviews">
+<div class="buttons">
 
-    <h2>Trusted by the Community</h2>
+<button class="primary">
+Create Server
+</button>
 
-    <div class="reviews-grid">
 
-        <div class="review-card">
-            <div class="avatar">👤</div>
-            <h3>Alex</h3>
-            <div class="stars">★★★★★</div>
-            <p>Fast servers, amazing performance and zero lag.</p>
-        </div>
+<button class="secondary">
+Join Discord
+</button>
 
-        <div class="review-card">
-            <div class="avatar">🎮</div>
-            <h3>Steve</h3>
-            <div class="stars">★★★★★</div>
-            <p>Best free Minecraft hosting panel I've ever used.</p>
-        </div>
 
-        <div class="review-card">
-            <div class="avatar">⚡</div>
-            <h3>Nova</h3>
-            <div class="stars">★★★★★</div>
-            <p>Beautiful design and very easy to manage my server.</p>
-        </div>
+</div>
 
-    </div>
 
 </section>
 
-<section class="faq">
 
-<h2>Frequently Asked Questions</h2>
 
-<div class="faq-item">
 
-<button class="faq-question">
-Is NovaHost Free?
-</button>
 
-<div class="faq-answer">
-Yes. NovaHost is free to use during development.
-</div>
+<!-- STATS -->
 
-</div>
 
-<div class="faq-item">
+<section class="stats">
 
-<button class="faq-question">
-Can I install plugins?
-</button>
 
-<div class="faq-answer">
-Yes! Paper, Purpur and Spigot plugins are supported.
-</div>
+<div class="card">
+
+<h2 class="counter" data-target="250">
+0
+</h2>
+
+<p>
+Members
+</p>
 
 </div>
 
-<div class="faq-item">
 
-<button class="faq-question">
-Is it 24/7?
-</button>
 
-<div class="faq-answer">
-The interface supports 24/7 hosting when connected to a real backend server.
+<div class="card">
+
+<h2 class="counter" data-target="35">
+0
+</h2>
+
+<p>
+Online Players
+</p>
+
 </div>
 
+
+
+
+<div class="card">
+
+<h2 class="counter" data-target="120">
+0
+</h2>
+
+<p>
+Servers Created
+</p>
+
 </div>
+
+
+
+
+<div class="card">
+
+<h2>
+99.9%
+</h2>
+
+<p>
+Uptime
+</p>
+
+</div>
+
+
 
 </section>
+
+
+
+
+
+
+
+<!-- SERVER STATUS -->
+
+
+<section class="server-status">
+
+
+<h2>
+🟢 Minecraft Server Status
+</h2>
+
+
+
+<div class="status-container">
+
+
+<div class="status-box">
+
+<h3>
+Online
+</h3>
+
+<p>
+Server Status
+</p>
+
+</div>
+
+
+
+<div class="status-box">
+
+<h3>
+35/100
+</h3>
+
+<p>
+Players
+</p>
+
+</div>
+
+
+
+
+<div class="status-box">
+
+<h3>
+1.21
+</h3>
+
+<p>
+Version
+</p>
+
+</div>
+
+
+
+<div class="status-box">
+
+<h3>
+20
+</h3>
+
+<p>
+TPS
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- CREATIVE SERVER BUILDER -->
+
+
+<section class="wizard">
+
+
+<h2>
+⚒ Creative Server Builder
+</h2>
+
+
+<p>
+Create your Minecraft server setup
+</p>
+
+
+
+<div class="wizard-box">
+
+
+<h3>
+Server Name
+</h3>
+
+
+<input id="serverName" placeholder="Example: NovaRealm SMP">
+
+
+
+
+
+<h3>
+Server Type
+</h3>
+
+
+<select id="serverType">
+
+<option>Survival SMP</option>
+<option>Lifesteal</option>
+<option>Skyblock</option>
+<option>Prison</option>
+<option>Creative</option>
+
+</select>
+
+
+
+
+
+<h3>
+Minecraft Version
+</h3>
+
+
+<select id="version">
+
+<option>1.21</option>
+<option>1.20</option>
+<option>1.19</option>
+
+</select>
+
+
+
+
+
+<h3>
+Plugins
+</h3>
+
+
+<label>
+<input type="checkbox" value="Essentials">
+Essentials
+</label>
+
+
+<label>
+<input type="checkbox" value="LuckPerms">
+LuckPerms
+</label>
+
+
+<label>
+<input type="checkbox" value="Economy">
+Economy
+</label>
+
+
+
+
+
+<button onclick="createServer()">
+
+Generate Server Plan
+
+</button>
+
+
+
+<div id="result" class="server-result">
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- LOGIN AREA -->
+
+
+<section class="wizard">
+
+
+<div class="wizard-box">
+
+
+<h2>
+Account
+</h2>
+
+
+<p>
+Manage your servers with your account
+</p>
+
+
+<button class="primary">
+Register
+</button>
+
+
+<button class="secondary">
+Login
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<h2>
+NovaRealm Minecraft
+</h2>
+
+
+<p>
+Create your world. Build your community.
+</p>
+
+
+
+<div>
+
+<a href="#">
+Discord
+</a>
+
+
+<a href="#">
+YouTube
+</a>
+
+
+<a href="#">
+TikTok
+</a>
+
+
+</div>
+
+
+
+<p>
+© 2026 NovaRealm. All rights reserved.
+</p>
+
+
+
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
+```
