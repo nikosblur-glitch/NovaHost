@@ -594,4 +594,74 @@ display:block;
 }
 line-height:1.7;
 
+} .menu-buttons {
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:50px;
+
+}
+
+
+.menu-btn {
+
+    width:200px;
+    padding:25px;
+
+    text-align:center;
+    text-decoration:none;
+
+    color:white;
+
+    background:#111125;
+
+    border-radius:20px;
+
+    font-size:20px;
+
+    transition:.4s;
+
+    box-shadow:0 0 15px #6c00ff;
+
+}
+
+
+.menu-btn:hover {
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 35px cyan;
+
+}
+
+
+.fortress {
+    border:2px solid #ff9900;
+}
+
+
+.premium {
+    border:2px solid gold;
+}
+
+
+.discord {
+    border:2px solid #5865F2;
+}
+
+
+.support {
+    border:2px solid #00ff88;
+}
+
+
+.login {
+    border:2px solid cyan;
+}
+
+
+.creative {
+    border:2px solid purple;
 }
